@@ -49,10 +49,19 @@ a{
     padding: 10px;
 }
 #tableOfContentContainer li a{
-    font-weight: 800;
-    font-size: 21px;
+    font-weight: 700;
+    font-size: 20px;
 
 }
 #post{
     width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: azure;
+}
+
+@media(max-width:1170px){
+    #main{
+        width: 100%;
+    }
 }
